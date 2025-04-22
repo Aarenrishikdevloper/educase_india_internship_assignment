@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Database
+*.sqlite
+*.db
+
+# Build
+dist/
+build/
+
+# Optional - Postgres dumps or configs
+*.dump
+*.sql
+pgdata/
+
+# Coverage
+coverage/
