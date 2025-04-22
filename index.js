@@ -79,7 +79,7 @@ app.get("/listSchool", async(req,res)=>{
      return res.status(400).json({message:"Bad Request"})
   } 
   try {
-     //CaLculating the near distance between Schooll lat long and user lat long using the Havershine distance and Sorting the according to distance
+     //CaLculating the near distance between Schooll lat long and user lat long using the Havershine formula and Sorting the according to distance
      const query = ` 
         SELECT *,
         (
