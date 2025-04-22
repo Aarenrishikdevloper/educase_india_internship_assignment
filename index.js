@@ -47,7 +47,7 @@ IntializingTable()
 
 //Middleware to parse JSON BODIES   
 app.use(express.json())
-//endpoint to add Scholl 
+//endpoint to add Scho0ll 
 app.post("/addSchool", async(req,res)=>{
     const{name, address, latitude,longitude} = req.body  
     //Input Validation 
